@@ -1,7 +1,7 @@
-# Vertex AI Conversational Agent using Agent Builder
+# Vertex AI Conversational Agent using AI Applications
 
 ## Overview
-This project demonstrates the design and implementation of a conversational AI agent using **Google Cloud Vertex AI Agent Builder**. The agent is built using a low-code approach and supports multi-agent orchestration to handle complex user queries through a chat-based interface.
+This project demonstrates the design and implementation of a conversational AI agent using **Google Cloud Vertex AI Applications**. The agent is built using a Natural Language approach and supports multi-agent orchestration to handle complex user queries through a chat-based interface.
 
 Instead of custom Python tools, the agent is extended using **REST APIs** defined via an **OpenAPI schema**, enabling real-time data access and external system integration.
 
@@ -40,7 +40,8 @@ This multi-agent architecture allows the system to combine **real-time geospatia
 - Web-based chat interface for user interaction
 
 ## Technologies Used
-- Google Cloud Vertex AI (Agent Builder)
+- Google Cloud Vertex AI (AI Applications)
+- Google Cloud Conversational Agents (Previously Dialogflow CX)
 - Retrieval-Augmented Generation (RAG)
 - Google Maps Geocoding API
 - REST APIs & OpenAPI Specification
@@ -51,6 +52,13 @@ This multi-agent architecture allows the system to combine **real-time geospatia
 ## Deployment
 
 The application was authenticated and deployed using the **Google Cloud CLI (`gcloud`)**.
+
+### Example Commands
+```bash
+gcloud auth login
+gcloud config set project <PROJECT_ID>
+gcloud app deploy
+```
 
 Key steps included:
 - Authenticating the local environment using `gcloud auth`
