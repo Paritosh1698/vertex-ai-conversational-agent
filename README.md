@@ -49,24 +49,6 @@ This multi-agent architecture allows the system to combine **real-time geospatia
 - Google Cloud App Engine
 - HTML / Web UI
 
-## Deployment
-
-The application was authenticated and deployed using the **Google Cloud CLI (`gcloud`)**.
-
-### Example Commands
-```bash
-gcloud auth login
-gcloud config set project <PROJECT_ID>
-gcloud app deploy
-```
-
-Key steps included:
-- Authenticating the local environment using `gcloud auth`
-- Setting the active project and region
-- Deploying the application to Google Cloud using App Engine
-
-This approach ensures reproducible, command-line–driven deployments aligned with cloud engineering best practices.
-
 ## Use Cases
 - City guide and tourism assistants
 - Location-aware conversational applications
