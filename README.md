@@ -9,6 +9,8 @@ Instead of custom Python tools, the agent is extended using **REST APIs** define
 
 The conversational system is implemented as a **network of task-based AI agents** orchestrated through **Vertex AI Agent Builder**, enabling modular reasoning and tool invocation.
 
+<img src="/Users/paritosh/Desktop-Screenshot 2025-12-13 at 6.24.49 PM.png" alt="Description of image" width="500" height="300">
+
 ### Primary Agent
 **Vancouver City Guide**  
 Acts as the main conversational interface, responsible for:
