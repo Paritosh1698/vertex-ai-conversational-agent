@@ -43,11 +43,10 @@ touch go-app/app.yaml
 touch go-app/templates/index.html
 ```
 Step 4: Deploy the agent
-Populate the app.yaml file with the following
-```bash
-runtime: go125 # This is the latest version
-```
-Run the following gcloud command
 ```bash
 gcloud app deploy
+```
+Step 5: Launch the browser page
+```bash
+gcloud app browse
 ```
