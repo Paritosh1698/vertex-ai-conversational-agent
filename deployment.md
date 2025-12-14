@@ -15,8 +15,7 @@ gcloud config set project <PROJECT_ID> # Select from a drop-down list of active 
 ```
 ### Project Setup (Local)
 
-Create a project structure as below
-(The following commands are supported for MacOS):
+Create a project structure as below:
 
 ```bash
 go-app/
