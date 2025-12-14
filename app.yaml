@@ -1,1 +1,1 @@
-runtime: go125 # Can be any currently supported version
+runtime: go125 # Can be any other currently supported version
