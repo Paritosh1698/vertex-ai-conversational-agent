@@ -11,6 +11,14 @@ The conversational system is implemented as a **network of task-based AI agents*
 
 <img width="790" height="327" alt="Screenshot 2025-12-13 at 6 24 49 PM" src="https://github.com/user-attachments/assets/0f31978b-02ae-4775-b2cf-e4b191062f29" />
 
+## Architecture Overview
+- **Vertex AI Agent Builder** for multi-agent orchestration
+- Primary conversational agent: *Vancouver City Guide*
+- Task-based agents for geolocation and neighbourhood knowledge
+- **Automatic RAG** for document grounding
+- **OpenAPI-based REST integration** with Google Maps Geocoding API
+- Web-based chat interface for user interaction
+
 ### Primary Agent
 **Vancouver City Guide**  
 Acts as the main conversational interface, responsible for:
@@ -32,14 +40,6 @@ Acts as the main conversational interface, responsible for:
 - Supports users interested in learning about the history and background of the neighbourhood they are currently in
 
 This multi-agent architecture allows the system to combine **real-time geospatial data** with **static, document-based knowledge**, delivering richer and more context-aware conversational experiences.
-
-## Architecture Overview
-- **Vertex AI Agent Builder** for multi-agent orchestration
-- Primary conversational agent: *Vancouver City Guide*
-- Task-based agents for geolocation and neighbourhood knowledge
-- **Automatic RAG** for document grounding
-- **OpenAPI-based REST integration** with Google Maps Geocoding API
-- Web-based chat interface for user interaction
 
 ## Technologies Used
 - Google Cloud Vertex AI (AI Applications)
