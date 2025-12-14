@@ -11,11 +11,12 @@ Key steps included:
 ```bash
 gcloud init # If you haven't initialized Google Cloud CLI
 gcloud auth login # Takes you to the browser page to authenticate
-gcloud config set project <PROJECT_ID> # Select from a drop-down of list of active projects
+gcloud config set project <PROJECT_ID> # Select from a drop-down list of active projects
 ```
 ### Project Setup (Local)
 
-Create a project structure as below:
+Create a project structure as below
+(The following commands are supported for MacOS):
 
 ```bash
 go-app/
