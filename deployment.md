@@ -19,10 +19,10 @@ Create a project structure as below:
 
 ```bash
 go-app/
-├── main.go
-├── app.yaml
+├── main.go # This file contains the application code
+├── app.yaml # This is used to specify the runtime environment
 └── templates/
-    └── index.html
+    └── index.html # Template that contains HTML for the homepage
 ```
 
 Step 1: Select the working directory
