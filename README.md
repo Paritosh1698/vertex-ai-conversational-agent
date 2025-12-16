@@ -3,7 +3,7 @@
 ## Overview
 This project demonstrates the design and implementation of a conversational AI agent using **Google Cloud Vertex AI Applications**. The agent is built using a Natural Language approach and supports multi-agent orchestration to handle complex user queries through a chat-based interface.
 
-Instead of custom Python tools, the agent is extended using **REST APIs** defined via an **OpenAPI schema**, enabling real-time data access and external system integration.
+Instead of custom Python tools, the agent is extended using **REST APIs** and **OpenAPI schema**, enabling real-time data access and external system integration.
 
 ## Agent Network Design
 
